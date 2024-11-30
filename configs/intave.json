@@ -495,6 +495,12 @@
     "Hidden": false,
     "Values": {}
   },
+  "GifTest": {
+    "State": false,
+    "Key": 0,
+    "Hidden": false,
+    "Values": {}
+  },
   "GlowESP": {
     "State": false,
     "Key": 0,
@@ -607,7 +613,7 @@
     }
   },
   "InvManager": {
-    "State": false,
+    "State": true,
     "Key": 38,
     "Hidden": false,
     "Values": {
@@ -693,7 +699,7 @@
       "Min Aps": 13.0,
       "Max Aps": 17.0,
       "Aps Mode": "Secure Random",
-      "Search Range": 5.0,
+      "Search Range": 16.0,
       "Rotation Range": 5.0,
       "Pre Swing With Rotation Range": false,
       "Addons": "Movement Fix, Ray Cast",
@@ -845,22 +851,18 @@
       "Fruit Bridge Ticks": 2.0,
       "Blocks To Jump": 7.0,
       "Biggest Stack": true,
-      "Rotations": "Normal",
-      "Precision": "Low",
-      "Test": true,
+      "Rotations": "Reverse",
       "God Bridge Pitch Mode": "In Range",
       "Custom Yaw": 96.0,
       "Static Pitch": 75.0,
       "Min Pitch Range": 72.0,
       "Max Pitch Range": 87.0,
-      "Always Rotate": true,
-      "Clutch Rotation": false,
       "Custom Rotation Setting": true,
       "Calculate Rotate Speed Mode": "Linear",
       "Min Yaw Rotation Speed": 94.0,
       "Min Pitch Rotation Speed": 100.0,
       "Max Yaw Rotation Speed": 157.0,
-      "Max Pitch Rotation Speed": 148.0,
+      "Max Pitch Rotation Speed": 153.0,
       "Max Yaw Acceleration": 100.0,
       "Max Pitch Acceleration": 100.0,
       "Acceleration Error": 0.0,
@@ -868,7 +870,7 @@
       "Smoothly Reset Rotation": true,
       "Sprint": true,
       "Swing": true,
-      "Addons": "Movement Fix, Sneak",
+      "Addons": "Movement Fix, Ray Trace, Sneak",
       "Blocks To Sneak": 7.0,
       "Sneak Distance": 0.07,
       "Tower": "Jump",
@@ -937,11 +939,12 @@
     "Hidden": false,
     "Values": {
       "Silent": false,
-      "Rotate": false
+      "Rotate": false,
+      "Only On Ground": true
     }
   },
   "Stealer": {
-    "State": false,
+    "State": true,
     "Key": 38,
     "Hidden": false,
     "Values": {
@@ -1005,7 +1008,7 @@
       "Max Balance": 200.0,
       "Delay": 100.0,
       "Min Active Range": 3.0,
-      "Max Active Range": 5.0,
+      "Max Active Range": 7.0,
       "Auto": true,
       "Predict Ticks": 4.0,
       "Dislay Predict Pos": true,
