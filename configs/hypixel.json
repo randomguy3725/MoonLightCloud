@@ -5,7 +5,7 @@
     "Hidden": true,
     "Values": {
       "Old": false,
-      "Block Anim": "1.7",
+      "Block Anim": "Swong",
       "Block When Swing": false,
       "Hit": "Vanilla",
       "Slow Down": 0.0,
@@ -106,9 +106,9 @@
       "Time": 18000.0,
       "Weather Editor": true,
       "Weather": "Clean",
-      "World Color": false,
+      "World Color": true,
       "World Color RGB": {
-        "RGB": -2631721,
+        "RGB": -10066330,
         "Alpha": 1.0
       },
       "World Fog": false,
@@ -242,7 +242,7 @@
     "Values": {}
   },
   "AutoWeapon": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": false,
     "Values": {}
@@ -763,7 +763,7 @@
     }
   },
   "NoFall": {
-    "State": false,
+    "State": true,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -847,7 +847,7 @@
       "Biggest Stack": true,
       "Rotations": "Normal 2",
       "Precision": "Moderate",
-      "Test": false,
+      "Test": true,
       "God Bridge Pitch Mode": "In Range",
       "Custom Yaw": 96.0,
       "Static Pitch": 75.0,
@@ -868,7 +868,7 @@
       "Smoothly Reset Rotation": false,
       "Sprint": true,
       "Swing": true,
-      "Addons": "Speed Keep Y, Hover",
+      "Addons": "Speed Keep Y, Safe Walk, Hover",
       "Blocks To Sneak": 7.0,
       "Sneak Distance": 0.0,
       "Tower": "Jump",
@@ -878,7 +878,7 @@
       "Tower Move Diagonal Speed": 0.225,
       "Tower Move Boost": true,
       "Tower Move Speed Boost": 0.01,
-      "WD Sprint Mode": "Spoof",
+      "WD Sprint Mode": "Spoof 2",
       "WD Keep Y Mode": "Normal",
       "Un Patch Test": false,
       "Keep Y Straight Speed": 1.0,
@@ -899,8 +899,8 @@
       "Shadow Radius": 10.0,
       "Shadow Offset": 2.0,
       "Bloom": true,
-      "Bloom Radius": 2.0,
-      "Bloom Offset": 3.0
+      "Bloom Radius": 3.0,
+      "Bloom Offset": 2.0
     }
   },
   "Speed": {
