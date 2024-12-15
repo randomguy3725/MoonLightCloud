@@ -61,7 +61,7 @@
   },
   "AntiFireball": {
     "State": true,
-    "Key": 33,
+    "Key": 0,
     "Hidden": false,
     "Values": {
       "Aps": 8.0,
@@ -180,7 +180,7 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Mode": "Solo Normal"
+      "Mode": "BedWars 4s"
     }
   },
   "AutoPot": {
@@ -321,7 +321,7 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Option": "View Clip, No Hurt Cam, FPS Hurt Cam, No Fire, Motion Camera",
+      "Option": "View Clip, No Hurt Cam, FPS Hurt Cam, No Fire, Motion Camera, Motion Blur",
       "Motion Interpolation": 0.1,
       "Motion Blur Amount": 7.0,
       "Bloom Amount": 0.75
@@ -677,15 +677,15 @@
     }
   },
   "KillAura": {
-    "State": true,
+    "State": false,
     "Key": 34,
     "Hidden": false,
     "Values": {
       "FOV": 180.0,
       "Mode": "Single",
       "SwitchDelay": 1.0,
-      "Priority": "Health",
-      "Aim Position": "Torso",
+      "Priority": "Range",
+      "Aim Position": "Nearest",
       "Rotation In Range": false,
       "Lowest Aim Range": 1.0,
       "Highest Aim Range": 1.0,
@@ -811,7 +811,7 @@
     "Values": {}
   },
   "NoRotate": {
-    "State": false,
+    "State": true,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -908,6 +908,7 @@
       "Tower Move Boost": true,
       "Tower Move Speed Boost": 0.01,
       "WD Sprint Mode": "Offset",
+      "Sprint Boost TEst": false,
       "WD Keep Y Mode": "Normal",
       "Un Patch Test": false,
       "Keep Y Straight Speed": 1.0,
@@ -939,7 +940,7 @@
     "Values": {
       "Mode": "Watchdog",
       "Watchdog Mode": "Full Strafe",
-      "Fall Strafe": true,
+      "Fall Strafe": false,
       "Friction Override": true,
       "Extra Strafe": true,
       "Boost": true,
