@@ -52,7 +52,7 @@
     }
   },
   "AntiFall": {
-    "State": false,
+    "State": true,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -108,7 +108,7 @@
       "Weather": "Clean",
       "World Color": true,
       "World Color RGB": {
-        "RGB": -11184811,
+        "RGB": -8224126,
         "Alpha": 1.0
       },
       "World Fog": false,
@@ -124,7 +124,7 @@
     "Hidden": false,
     "Values": {
       "Mode": "Circle",
-      "Amount": 3.0,
+      "Amount": 2.0,
       "Physics": false
     }
   },
@@ -180,7 +180,7 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Mode": "BedWars 4s"
+      "Mode": "Solo Normal"
     }
   },
   "AutoPot": {
@@ -282,7 +282,18 @@
       "Auto Tool": true,
       "Auto Tool On Packet": true,
       "Progress Text": true,
-      "Progress Bar": false
+      "Progress Bar": false,
+      "Whitelist Own Bed": true
+    }
+  },
+  "BedPlates": {
+    "State": false,
+    "Key": 0,
+    "Hidden": false,
+    "Values": {
+      "Distance": 30.0,
+      "Update Rate": 2500.0,
+      "Layers": 2.0
     }
   },
   "Blink": {
@@ -532,27 +543,27 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Mode": "Sexy",
+      "Mode": "Blend",
       "Points": 48.0,
       "Size": 0.5,
       "Off Set": 5000.0,
       "Color": {
-        "RGB": -65281,
+        "RGB": -16060417,
         "Alpha": 1.0
       },
       "Second Color": {
-        "RGB": -7581492,
+        "RGB": -11492148,
         "Alpha": 1.0
       },
       "Third Color": {
-        "RGB": -5439233,
+        "RGB": -11097857,
         "Alpha": 1.0
       },
       "Target": false
     }
   },
   "HitBubbles": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": false,
     "Values": {}
@@ -599,9 +610,9 @@
       "Key Bind Mode": "Type 1",
       "Session Info Mode": "Rise",
       "Center Notification": false,
-      "Color Setting": "Dynamic",
+      "Color Setting": "Fade",
       "Main Color": {
-        "RGB": -38294,
+        "RGB": -9475329,
         "Alpha": 1.0
       },
       "Second Color": {
@@ -645,6 +656,21 @@
       "Watchdog Chest": true
     }
   },
+  "ItemAlerts": {
+    "State": true,
+    "Key": 0,
+    "Hidden": false,
+    "Values": {
+      "Swords": true,
+      "Include Stone": true,
+      "Armor": true,
+      "Tools": true,
+      "Enchant": false,
+      "Items": true,
+      "Invisible Check": true,
+      "Invisibility Status": true
+    }
+  },
   "JumpCircles": {
     "State": true,
     "Key": 0,
@@ -685,7 +711,7 @@
       "Mode": "Single",
       "SwitchDelay": 1.0,
       "Priority": "Range",
-      "Aim Position": "Nearest",
+      "Aim Position": "Torso",
       "Rotation In Range": false,
       "Lowest Aim Range": 1.0,
       "Highest Aim Range": 1.0,
@@ -718,13 +744,13 @@
       "Min Aps": 10.0,
       "Max Aps": 11.0,
       "Aps Mode": "Random",
-      "Search Range": 5.0,
-      "Rotation Range": 5.0,
+      "Search Range": 8.0,
+      "Rotation Range": 8.0,
       "Pre Swing With Rotation Range": false,
       "Addons": "Ray Cast",
       "Attack Range": 3.0,
       "Wall Attack Range": 3.0,
-      "Block Range": 5.0,
+      "Block Range": 8.0,
       "AutoBlock": "Watchdog",
       "Interact": false,
       "Via": false,
@@ -828,7 +854,7 @@
     }
   },
   "Phase": {
-    "State": false,
+    "State": true,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -897,18 +923,13 @@
       "Smoothly Reset Rotation": false,
       "Sprint": true,
       "Swing": true,
-      "Addons": "Safe Walk",
+      "Addons": "Speed Keep Y, Safe Walk",
       "Blocks To Sneak": 7.0,
       "Sneak Distance": 0.0,
       "Tower": "Jump",
-      "Calculate Position": false,
       "Tower Move": "Jump",
-      "Stop": true,
-      "Tower Move Diagonal Speed": 0.2,
-      "Tower Move Boost": true,
-      "Tower Move Speed Boost": 0.01,
       "WD Sprint Mode": "Offset",
-      "Sprint Boost TEst": false,
+      "Sprint Boost Test": true,
       "WD Keep Y Mode": "Normal",
       "Un Patch Test": false,
       "Keep Y Straight Speed": 1.0,
@@ -925,10 +946,10 @@
       "Blur": false,
       "Blur Radius": 8.0,
       "Blur Compression": 2.0,
-      "Shadow": true,
+      "Shadow": false,
       "Shadow Radius": 10.0,
       "Shadow Offset": 2.0,
-      "Bloom": false,
+      "Bloom": true,
       "Bloom Radius": 2.0,
       "Bloom Offset": 3.0
     }
@@ -942,9 +963,9 @@
       "Watchdog Mode": "Full Strafe",
       "Fall Strafe": false,
       "Friction Override": true,
-      "Extra Strafe": true,
+      "Extra Strafe": false,
       "Boost": true,
-      "Fast Fall": false,
+      "Fast Fall": true,
       "Fast Fall Mode": "8 Tick",
       "Predict Ticks": 5.0,
       "More Expand": true,
@@ -984,7 +1005,7 @@
       "Aura": false,
       "Start Delay": false,
       "Furnace": false,
-      "Brewing Stand": false,
+      "Brewing Stand": true,
       "Avoid": false,
       "Display": false,
       "Range": 4.0
@@ -1067,7 +1088,7 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Mode": "Air",
+      "Mode": "Horizontal",
       "Grim Mode": "1.17",
       "Boost Tick": 1.0,
       "Boost Strength": 0.2,
