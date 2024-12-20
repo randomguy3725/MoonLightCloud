@@ -8,7 +8,7 @@
       "Block Anim": "Swank",
       "Block When Swing": false,
       "Hit": "Vanilla",
-      "Slow Down": 0.0,
+      "Slow Down": 6.0,
       "Scale": 0.0,
       "Rotating": false,
       "Item-X": 0.0,
@@ -65,7 +65,7 @@
     "Hidden": false,
     "Values": {
       "Aps": 8.0,
-      "Range": 4.0,
+      "Range": 4.5,
       "Custom Rotation Setting": true,
       "Calculate Rotate Speed Mode": "Linear",
       "Min Yaw Rotation Speed": 180.0,
@@ -180,7 +180,7 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Mode": "Solo Normal"
+      "Mode": "Solo Insane"
     }
   },
   "AutoPot": {
@@ -590,7 +590,7 @@
     "Hidden": false,
     "Values": {
       "Client Name": "MoonLight",
-      "Elements": "Watermark, Module List, Armor, Potion HUD, Target HUD, Notification, Pointer, Key Bind",
+      "Elements": "Watermark, Module List, Armor, Info, Potion HUD, Target HUD, Notification, Pointer, Session Info, Key Bind",
       "C Fonts": true,
       "C Fonts Mode": "Semi Bold",
       "Watermark Mode": "Type 1",
@@ -695,7 +695,7 @@
     }
   },
   "KeepSprint": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -854,7 +854,7 @@
     }
   },
   "Phase": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -929,7 +929,7 @@
       "Tower": "Jump",
       "Tower Move": "Jump",
       "WD Sprint Mode": "Offset",
-      "Sprint Boost Test": true,
+      "Sprint Boost Test": false,
       "WD Keep Y Mode": "Normal",
       "Un Patch Test": false,
       "Keep Y Straight Speed": 1.0,
