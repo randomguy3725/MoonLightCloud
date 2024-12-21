@@ -5,10 +5,10 @@
     "Hidden": false,
     "Values": {
       "Old": true,
-      "Block Anim": "Swank",
+      "Block Anim": "Smooth",
       "Block When Swing": false,
       "Hit": "Vanilla",
-      "Slow Down": 6.0,
+      "Slow Down": 0.0,
       "Scale": 0.0,
       "Rotating": false,
       "Item-X": 0.0,
@@ -180,7 +180,7 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Mode": "Solo Insane"
+      "Mode": "Solo Normal"
     }
   },
   "AutoPot": {
@@ -292,7 +292,7 @@
     "Hidden": false,
     "Values": {
       "Distance": 30.0,
-      "Update Rate": 2500.0,
+      "Update Rate": 4000.0,
       "Layers": 2.0
     }
   },
@@ -302,6 +302,20 @@
     "Hidden": false,
     "Values": {
       "Show Prev Pos": true
+    }
+  },
+  "BlockOverlay": {
+    "State": false,
+    "Key": 0,
+    "Hidden": false,
+    "Values": {
+      "Outline": true,
+      "Filled": false,
+      "Sync Color": false,
+      "Color": {
+        "RGB": -1,
+        "Alpha": 1.0
+      }
     }
   },
   "BowAimBot": {
@@ -332,7 +346,7 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Option": "View Clip, No Hurt Cam, FPS Hurt Cam, No Fire, Motion Camera, Motion Blur",
+      "Option": "View Clip, No Hurt Cam, FPS Hurt Cam, No Fire, Motion Blur",
       "Motion Interpolation": 0.1,
       "Motion Blur Amount": 7.0,
       "Bloom Amount": 0.75
@@ -354,6 +368,20 @@
       "O-Color": {
         "RGB": -264201,
         "Alpha": 0.9764706
+      }
+    }
+  },
+  "ChestESP": {
+    "State": true,
+    "Key": 0,
+    "Hidden": false,
+    "Values": {
+      "Outline": true,
+      "Filled": false,
+      "Sync Color": false,
+      "Color": {
+        "RGB": -9115,
+        "Alpha": 1.0
       }
     }
   },
@@ -417,6 +445,7 @@
     "Hidden": false,
     "Values": {
       "Disablers": "Watchdog Motion, Watchdog Inventory",
+      "Game Mode": "SW",
       "Addons": "Post"
     }
   },
@@ -477,13 +506,13 @@
     "Values": {}
   },
   "FireFlies": {
-    "State": false,
+    "State": true,
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "DarkImprint": false,
+      "DarkImprint": true,
       "Lighting": true,
-      "SpawnDelay": 9.0
+      "SpawnDelay": 5.0
     }
   },
   "Fly": {
@@ -521,20 +550,20 @@
     "Values": {}
   },
   "GlowESP": {
-    "State": false,
+    "State": true,
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Radius": 17.0,
-      "Transparency": 255.0
+      "Exposure": 2.0,
+      "Radius": 6.0
     }
   },
   "HackerDetector": {
-    "State": false,
+    "State": true,
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Detects": "Angle, Auto Block, No Fall, No Slow, Omni Sprint",
+      "Detects": "No Fall, No Slow, Omni Sprint",
       "Self": false
     }
   },
@@ -593,7 +622,7 @@
       "Elements": "Watermark, Module List, Armor, Info, Potion HUD, Target HUD, Notification, Pointer, Session Info, Key Bind",
       "C Fonts": true,
       "C Fonts Mode": "Semi Bold",
-      "Watermark Mode": "Type 1",
+      "Watermark Mode": "Text",
       "Animation": "ScaleIn",
       "Position": "Right",
       "Module List X": -7.0,
@@ -601,14 +630,14 @@
       "Text Height": 9.0,
       "Suffix": "Dash",
       "Background": true,
-      "Line": false,
+      "Line": true,
       "Armor Mode": "Default",
       "Info Mode": "Exhi",
       "Potion Mode": "Type 1",
-      "TargetHUD Mode": "Type 2",
-      "Notification Mode": "Type 2",
+      "TargetHUD Mode": "Moon",
+      "Notification Mode": "Default",
       "Key Bind Mode": "Type 1",
-      "Session Info Mode": "Rise",
+      "Session Info Mode": "Moon",
       "Center Notification": false,
       "Color Setting": "Fade",
       "Main Color": {
@@ -620,11 +649,12 @@
         "Alpha": 1.0
       },
       "Fade Speed": 2.0,
-      "Background Color": "Dark",
+      "Background Color": "Synced",
       "Background Custom Color": {
         "RGB": -14606018,
         "Alpha": 1.0
       },
+      "Background Alpha": 100.0,
       "Hide Scoreboard Red Points": true,
       "Chat Combine": true,
       "Cape": true,
@@ -695,7 +725,7 @@
     }
   },
   "KeepSprint": {
-    "State": false,
+    "State": true,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -711,7 +741,7 @@
       "Mode": "Single",
       "SwitchDelay": 1.0,
       "Priority": "Range",
-      "Aim Position": "Torso",
+      "Aim Position": "Nearest",
       "Rotation In Range": false,
       "Lowest Aim Range": 1.0,
       "Highest Aim Range": 1.0,
@@ -792,7 +822,7 @@
     }
   },
   "LineGlyphs": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -898,16 +928,14 @@
     "Hidden": false,
     "Values": {
       "Switch Block": "Spoof",
+      "Biggest Stack": true,
       "Mode": "Watchdog",
       "Min Telly Ticks": 2.0,
       "Max Telly Ticks": 4.0,
-      "Fruit Bridge Ticks": 2.0,
-      "Blocks To Jump": 7.0,
-      "Biggest Stack": true,
       "Rotations": "Hypixel Test",
-      "God Bridge Pitch Mode": "In Range",
+      "Rotation Hit Vec": "Centre",
+      "God Bridge Pitch Mode": "Normal",
       "Custom Yaw": 91.0,
-      "Static Pitch": 75.0,
       "Min Pitch Range": 72.0,
       "Max Pitch Range": 87.0,
       "Custom Rotation Setting": true,
@@ -921,20 +949,19 @@
       "Acceleration Error": 0.0,
       "Constant Error": 0.0,
       "Smoothly Reset Rotation": false,
-      "Sprint": true,
-      "Swing": true,
-      "Addons": "Speed Keep Y, Safe Walk",
+      "Addons": "Sprint, Swing, Speed Keep Y, Safe Walk",
+      "Blocks To Jump": 7.0,
       "Blocks To Sneak": 7.0,
       "Sneak Distance": 0.0,
-      "Tower": "Jump",
-      "Tower Move": "Jump",
+      "Tower": "Watchdog",
+      "Tower Move": "Watchdog Test",
+      "Stop Tick": 30.0,
       "WD Sprint Mode": "Offset",
       "Sprint Boost Test": false,
-      "WD Keep Y Mode": "Normal",
+      "WD Keep Y Mode": "None",
       "Un Patch Test": false,
       "Keep Y Straight Speed": 1.0,
       "Keep Y Diagonal Speed": 1.0,
-      "Low Hop": "None",
       "Counter": "Normal"
     }
   },
@@ -943,9 +970,9 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Blur": false,
-      "Blur Radius": 8.0,
-      "Blur Compression": 2.0,
+      "Blur": true,
+      "Blur Radius": 10.0,
+      "Blur Compression": 1.0,
       "Shadow": false,
       "Shadow Radius": 10.0,
       "Shadow Offset": 2.0,
@@ -979,6 +1006,7 @@
       "Force Stop": true,
       "Lag Back Check": true,
       "Liquid Check": false,
+      "Gui Check": true,
       "Debug": false,
       "Print Off Ground Ticks": false
     }
@@ -1001,7 +1029,8 @@
     "Values": {
       "Delay": 1.0,
       "Menu Check": true,
-      "Silent": false,
+      "Silent": true,
+      "Silent View": true,
       "Aura": false,
       "Start Delay": false,
       "Furnace": false,
@@ -1016,7 +1045,9 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Mode": "Watchdog Test"
+      "Mode": "NCP",
+      "Timer": 0.2,
+      "Delay": 1000.0
     }
   },
   "Strafe": {
