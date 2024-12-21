@@ -2,7 +2,7 @@
   "Animations": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Old": true,
       "Block Anim": "Smooth",
@@ -100,7 +100,7 @@
   "Atmosphere": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Time Editor": true,
       "Time": 18000.0,
@@ -180,7 +180,7 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Mode": "Solo Normal"
+      "Mode": "Solo Insane"
     }
   },
   "AutoPot": {
@@ -344,7 +344,7 @@
   "Camera": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Option": "View Clip, No Hurt Cam, FPS Hurt Cam, No Fire, Motion Blur",
       "Motion Interpolation": 0.1,
@@ -374,7 +374,7 @@
   "ChestESP": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Outline": true,
       "Filled": false,
@@ -417,7 +417,7 @@
   "DashTrail": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "MotionsSmoothing": true,
       "DashSegments": false,
@@ -452,7 +452,7 @@
   "ESP": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Tags": true,
       "Tags Size": 0.5,
@@ -494,7 +494,7 @@
   "FastPlace": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Speed": 1.0
     }
@@ -508,7 +508,7 @@
   "FireFlies": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "DarkImprint": true,
       "Lighting": true,
@@ -528,7 +528,7 @@
   "FreeLook": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {}
   },
   "Freeze": {
@@ -552,7 +552,7 @@
   "GlowESP": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Exposure": 2.0,
       "Radius": 6.0
@@ -561,7 +561,7 @@
   "HackerDetector": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Detects": "No Fall, No Slow, Omni Sprint",
       "Self": false
@@ -570,7 +570,7 @@
   "Hat": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Mode": "Blend",
       "Points": 48.0,
@@ -616,7 +616,7 @@
   "Interface": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Client Name": "MoonLight",
       "Elements": "Watermark, Module List, Armor, Info, Potion HUD, Target HUD, Notification, Pointer, Session Info, Key Bind",
@@ -635,7 +635,7 @@
       "Info Mode": "Exhi",
       "Potion Mode": "Type 1",
       "TargetHUD Mode": "Moon",
-      "Notification Mode": "Default",
+      "Notification Mode": "Type 3",
       "Key Bind Mode": "Type 1",
       "Session Info Mode": "Moon",
       "Center Notification": false,
@@ -654,7 +654,7 @@
         "RGB": -14606018,
         "Alpha": 1.0
       },
-      "Background Alpha": 100.0,
+      "Background Alpha": 129.0,
       "Hide Scoreboard Red Points": true,
       "Chat Combine": true,
       "Cape": true,
@@ -689,7 +689,7 @@
   "ItemAlerts": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Swords": true,
       "Include Stone": true,
@@ -704,7 +704,7 @@
   "JumpCircles": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Max TIme": 3000.0,
       "Radius": 1.7,
@@ -733,7 +733,7 @@
     }
   },
   "KillAura": {
-    "State": false,
+    "State": true,
     "Key": 34,
     "Hidden": false,
     "Values": {
@@ -826,8 +826,8 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Slow Speed": true,
-      "Glyphs Count": 70.0
+      "Slow Speed": false,
+      "Glyphs Count": 65.0
     }
   },
   "LongJump": {
@@ -863,13 +863,13 @@
   "NoJumpDelay": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {}
   },
   "NoRotate": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Mode": "Edit"
     }
@@ -903,7 +903,7 @@
   "Rotation": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Render Body": true,
       "Realistic": true,
@@ -955,7 +955,6 @@
       "Sneak Distance": 0.0,
       "Tower": "Watchdog",
       "Tower Move": "Watchdog Test",
-      "Stop Tick": 30.0,
       "WD Sprint Mode": "Offset",
       "Sprint Boost Test": false,
       "WD Keep Y Mode": "None",
@@ -968,7 +967,7 @@
   "Shaders": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Blur": true,
       "Blur Radius": 10.0,
@@ -988,10 +987,10 @@
     "Values": {
       "Mode": "Watchdog",
       "Watchdog Mode": "Full Strafe",
-      "Fall Strafe": false,
+      "Fall Strafe": true,
       "Friction Override": true,
       "Extra Strafe": false,
-      "Boost": true,
+      "Boost": false,
       "Fast Fall": true,
       "Fast Fall Mode": "8 Tick",
       "Predict Ticks": 5.0,
@@ -1014,7 +1013,7 @@
   "Sprint": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Omni": false,
       "Silent": false,
@@ -1064,7 +1063,7 @@
   "TargetESP": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {
       "Mark Mode": "Ghost",
       "Circle Speed": 2.0,
@@ -1111,7 +1110,7 @@
   "Trajectories": {
     "State": true,
     "Key": 0,
-    "Hidden": false,
+    "Hidden": true,
     "Values": {}
   },
   "Velocity": {
@@ -1119,7 +1118,7 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Mode": "Horizontal",
+      "Mode": "Air",
       "Grim Mode": "1.17",
       "Boost Tick": 1.0,
       "Boost Strength": 0.2,
