@@ -5,7 +5,7 @@
     "Hidden": true,
     "Values": {
       "Old": true,
-      "Block Anim": "Smooth",
+      "Block Anim": "Swong",
       "Block When Swing": false,
       "Hit": "Vanilla",
       "Slow Down": 0.0,
@@ -65,7 +65,7 @@
     "Values": {
       "Aps": 8.0,
       "Range": 4.5,
-      "Custom Rotation Setting": true,
+      "Custom Rotation Setting": false,
       "Min Yaw Rotation Speed": 180.0,
       "Min Pitch Rotation Speed": 180.0,
       "Max Yaw Rotation Speed": 180.0,
@@ -436,7 +436,7 @@
     }
   },
   "Disabler": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -518,8 +518,7 @@
     "Hidden": false,
     "Values": {
       "Mode": "Vanilla",
-      "Horizontal speed": 2.0,
-      "Vertical speed": 2.0
+      "Speed": 2.0
     }
   },
   "FreeLook": {
@@ -648,10 +647,10 @@
       "Fade Speed": 2.0,
       "Background Color": "Synced",
       "Background Custom Color": {
-        "RGB": -14606018,
+        "RGB": -13224346,
         "Alpha": 1.0
       },
-      "Background Alpha": 129.0,
+      "Background Alpha": 97.0,
       "Hide Scoreboard Red Points": true,
       "Chat Combine": true,
       "Cape": true,
@@ -730,7 +729,7 @@
     }
   },
   "KillAura": {
-    "State": false,
+    "State": true,
     "Key": 34,
     "Hidden": false,
     "Values": {
@@ -746,6 +745,8 @@
       "Bruteforce": true,
       "Smart Vec": false,
       "Smart Rotation": false,
+      "Pause Rotations": false,
+      "Pause Range": 6.0,
       "Custom Rotation Setting": false,
       "Min Yaw Rotation Speed": 180.0,
       "Min Pitch Rotation Speed": 180.0,
@@ -771,14 +772,14 @@
       "Max Speed": 0.25,
       "Min Aps": 10.0,
       "Max Aps": 11.0,
-      "Aps Mode": "Secure Random",
-      "Search Range": 8.0,
-      "Rotation Range": 8.0,
+      "Aps Mode": "Random",
+      "Search Range": 5.0,
+      "Rotation Range": 5.0,
       "Pre Swing With Rotation Range": false,
       "Addons": "Ray Cast",
       "Attack Range": 3.0,
       "Wall Attack Range": 3.0,
-      "Block Range": 8.0,
+      "Block Range": 5.0,
       "AutoBlock": "Watchdog",
       "Interact": false,
       "Via": false,
@@ -881,7 +882,7 @@
     }
   },
   "Phase": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -954,10 +955,11 @@
       "WD Sprint Mode": "Offset",
       "Sprint Boost Test": true,
       "WD Keep Y Mode": "None",
+      "WD Fast Fall Mode": "8 Tick",
       "Un Patch Test": true,
       "Keep Y Straight Speed": 1.0,
       "Keep Y Diagonal Speed": 1.0,
-      "Counter": "Normal"
+      "Counter": "Simple"
     }
   },
   "Shaders": {
@@ -1115,7 +1117,7 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Mode": "Air",
+      "Mode": "Horizontal",
       "Grim Mode": "1.17",
       "Boost Tick": 1.0,
       "Boost Strength": 0.75,
