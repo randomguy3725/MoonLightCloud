@@ -165,7 +165,7 @@
     "Values": {}
   },
   "AutoPlay": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -660,7 +660,7 @@
     }
   },
   "InvManager": {
-    "State": false,
+    "State": true,
     "Key": 38,
     "Hidden": false,
     "Values": {
@@ -959,8 +959,8 @@
       "Tower": "Watchdog",
       "Tower Move": "Watchdog",
       "WD Sprint Mode": "Offset",
-      "Sprint Boost Test": false,
-      "Extra": false,
+      "Sprint Boost Test": true,
+      "Extra": true,
       "WD Keep Y Mode": "None",
       "WD Fast Fall Mode": "8 Tick",
       "Un Patch Test": true,
@@ -1031,7 +1031,7 @@
     }
   },
   "Stealer": {
-    "State": false,
+    "State": true,
     "Key": 38,
     "Hidden": false,
     "Values": {
