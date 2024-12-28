@@ -412,7 +412,7 @@
     }
   },
   "DashTrail": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": true,
     "Values": {
