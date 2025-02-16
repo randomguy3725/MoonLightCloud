@@ -171,7 +171,7 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Mode": "Solo Insane"
+      "Mode": "Solo Normal"
     }
   },
   "AutoPot": {
@@ -275,7 +275,7 @@
       "Whitelist Own Bed": true,
       "Swap": true,
       "Ignore Slow": false,
-      "Ground Spoof": false
+      "Hypixel Ground Spoof": true
     }
   },
   "BedPlates": {
@@ -355,7 +355,7 @@
     "Key": 0,
     "Hidden": true,
     "Values": {
-      "Option": "View Clip, No Hurt Cam, FPS Hurt Cam, No Fire, Motion Blur",
+      "Option": "View Clip, No Hurt Cam, FPS Hurt Cam, No Fire, Motion Blur, Minimal Bobbing",
       "Distance": 4.0,
       "Motion Interpolation": 0.05,
       "Motion Blur Amount": 5.0,
@@ -435,11 +435,10 @@
     "Key": 0,
     "Hidden": true,
     "Values": {
-      "MotionsSmoothing": true,
-      "DashSegments": false,
-      "DashDots": false,
-      "Lighting": true,
-      "DashLength": 0.5
+      "Dash Segments": false,
+      "Dash Dots": true,
+      "Anim Time": 100.0,
+      "Time": 400.0
     }
   },
   "DeadEffect": {
@@ -456,7 +455,7 @@
     }
   },
   "Disabler": {
-    "State": false,
+    "State": true,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -534,9 +533,10 @@
     "Key": 0,
     "Hidden": true,
     "Values": {
-      "DarkImprint": false,
+      "Dark Imprint": true,
       "Lighting": false,
-      "SpawnDelay": 5.0
+      "Spawn Delay": 3.0,
+      "Max Alive Time": 1000.0
     }
   },
   "Fly": {
@@ -676,7 +676,6 @@
         "RGB": -16711681,
         "Alpha": 1.0
       },
-      "Color Alpha": 99.0,
       "Fade Speed": 2.0,
       "Background": true,
       "Background Color": "Custom",
@@ -689,7 +688,7 @@
       "Hide Scoreboard": false,
       "Hide Scoreboard Red Points": true,
       "Fix Height": true,
-      "Hide Background": false,
+      "Hide Background": true,
       "Chat Combine": true,
       "Cape": true,
       "Wavey Cape": false,
@@ -697,7 +696,7 @@
     }
   },
   "InvManager": {
-    "State": true,
+    "State": false,
     "Key": 38,
     "Hidden": false,
     "Values": {
@@ -709,7 +708,6 @@
       "Auto Armor": true,
       "Start Delay": false,
       "Display": false,
-      "Lobby Check": false,
       "Using Item Check": true
     }
   },
@@ -777,12 +775,12 @@
     }
   },
   "KillAura": {
-    "State": true,
+    "State": false,
     "Key": 34,
     "Hidden": false,
     "Values": {
       "FOV": 180.0,
-      "Mode": "Single",
+      "Mode": "Switch",
       "SwitchDelay": 1.0,
       "Priority": "FOV",
       "Aim Position": "Torso",
@@ -853,7 +851,7 @@
       "Delay": 1.0,
       "No Scaffold": true,
       "No Inventory": false,
-      "No Bed Nuker": true
+      "No Bed Nuker": false
     }
   },
   "KillSults": {
@@ -868,7 +866,7 @@
     "Hidden": true,
     "Values": {
       "Slow Speed": true,
-      "Glyphs Count": 22.0
+      "Glyphs Count": 38.0
     }
   },
   "LongJump": {
@@ -1055,7 +1053,7 @@
     }
   },
   "Speed": {
-    "State": true,
+    "State": false,
     "Key": 47,
     "Hidden": false,
     "Values": {
@@ -1066,7 +1064,7 @@
       "Fast Fall Mode": "8 Tick Strafe",
       "Disable While Scaffold": true,
       "Fall Strafe": true,
-      "Friction Override": false,
+      "Friction Override": true,
       "Extra Strafe": true,
       "More Expand": true,
       "Ignore Damage": true,
@@ -1096,7 +1094,7 @@
     }
   },
   "Stealer": {
-    "State": true,
+    "State": false,
     "Key": 38,
     "Hidden": false,
     "Values": {
@@ -1149,7 +1147,7 @@
     "Key": 0,
     "Hidden": false,
     "Values": {
-      "Range": 1.0,
+      "Range": 1.4,
       "Hold Jump": true,
       "Render": true,
       "Behind": false

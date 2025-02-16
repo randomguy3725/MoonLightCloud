@@ -275,7 +275,7 @@
       "Whitelist Own Bed": true,
       "Swap": true,
       "Ignore Slow": false,
-      "Ground Spoof": false
+      "Hypixel Ground Spoof": true
     }
   },
   "BedPlates": {
@@ -355,7 +355,7 @@
     "Key": 0,
     "Hidden": true,
     "Values": {
-      "Option": "View Clip, No Hurt Cam, FPS Hurt Cam, No Fire, Motion Blur",
+      "Option": "View Clip, No Hurt Cam, FPS Hurt Cam, No Fire, Motion Blur, Minimal Bobbing",
       "Distance": 4.0,
       "Motion Interpolation": 0.05,
       "Motion Blur Amount": 5.0,
@@ -435,11 +435,10 @@
     "Key": 0,
     "Hidden": true,
     "Values": {
-      "MotionsSmoothing": true,
-      "DashSegments": false,
-      "DashDots": false,
-      "Lighting": true,
-      "DashLength": 0.5
+      "Dash Segments": false,
+      "Dash Dots": true,
+      "Anim Time": 100.0,
+      "Time": 400.0
     }
   },
   "DeadEffect": {
@@ -534,9 +533,10 @@
     "Key": 0,
     "Hidden": true,
     "Values": {
-      "DarkImprint": false,
+      "Dark Imprint": true,
       "Lighting": false,
-      "SpawnDelay": 5.0
+      "Spawn Delay": 3.0,
+      "Max Alive Time": 1000.0
     }
   },
   "Fly": {
@@ -644,7 +644,7 @@
     "Hidden": true,
     "Values": {
       "Client Name": "MoonLight",
-      "Elements": "Island, Module List, Armor, Potion HUD, Target HUD, Pointer, Session Info",
+      "Elements": "Island, Module List, Armor, Info, Potion HUD, Target HUD, Pointer, Session Info",
       "C Fonts": true,
       "C Fonts Mode": "Semi Bold",
       "Font Size": 17.0,
@@ -658,7 +658,7 @@
       "Line": "Right",
       "Outline": false,
       "Armor Mode": "Default",
-      "Info Mode": "Moon 2",
+      "Info Mode": "Exhi",
       "Version Mode": "Default",
       "Potion Mode": "Default",
       "TargetHUD Mode": "Type 2",
@@ -684,8 +684,11 @@
         "Alpha": 1.0
       },
       "Background Alpha": 154.0,
+      "Custom Scoreboard": true,
       "Hide Scoreboard": false,
       "Hide Scoreboard Red Points": true,
+      "Fix Height": true,
+      "Hide Background": true,
       "Chat Combine": true,
       "Cape": true,
       "Wavey Cape": false,
@@ -705,7 +708,6 @@
       "Auto Armor": true,
       "Start Delay": false,
       "Display": false,
-      "Lobby Check": false,
       "Using Item Check": true
     }
   },
@@ -778,7 +780,7 @@
     "Hidden": false,
     "Values": {
       "FOV": 180.0,
-      "Mode": "Single",
+      "Mode": "Switch",
       "SwitchDelay": 1.0,
       "Priority": "FOV",
       "Aim Position": "Torso",
@@ -1148,7 +1150,7 @@
       "Range": 1.0,
       "Hold Jump": true,
       "Render": true,
-      "Behind": true
+      "Behind": false
     }
   },
   "TickBase": {
