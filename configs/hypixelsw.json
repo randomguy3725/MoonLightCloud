@@ -4,11 +4,11 @@
     "Key": 0,
     "Hidden": true,
     "Values": {
-      "Old": true,
-      "Block Anim": "Swang",
+      "Old": false,
+      "Block Anim": "Small",
       "Block When Swing": false,
       "Hit": "Vanilla",
-      "Slow Down": 0.0,
+      "Slow Down": 10.0,
       "Scale": 0.0,
       "Rotating": false,
       "Item-X": 0.0,
@@ -116,12 +116,12 @@
     "Hidden": true,
     "Values": {
       "Time Editor": true,
-      "Time": 19000.0,
+      "Time": 18000.0,
       "Weather Editor": true,
       "Weather": "Clean",
       "World Color": true,
       "World Color RGB": {
-        "RGB": -8553091,
+        "RGB": -11184811,
         "Alpha": 1.0
       },
       "World Fog": false,
@@ -291,7 +291,7 @@
     }
   },
   "BedNuker": {
-    "State": false,
+    "State": true,
     "Key": 19,
     "Hidden": false,
     "Values": {
@@ -389,15 +389,15 @@
     "Key": 0,
     "Hidden": true,
     "Values": {
-      "Option": "View Clip, No Hurt Cam, FPS Hurt Cam, No Fire, Motion Blur",
+      "Option": "View Clip, No Hurt Cam, FPS Hurt Cam, No Fire, Motion Camera, Motion Blur, Minimal Bobbing",
       "Distance": 4.0,
-      "Motion Interpolation": 0.05,
-      "Motion Blur Amount": 5.0,
+      "Motion Interpolation": 0.1,
+      "Motion Blur Amount": 7.0,
       "Bloom Amount": 0.75
     }
   },
   "Chams": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": false,
     "Values": {
@@ -470,7 +470,7 @@
     "Hidden": true,
     "Values": {
       "Dash Segments": false,
-      "Dash Dots": true,
+      "Dash Dots": false,
       "Anim Time": 100.0,
       "Time": 400.0
     }
@@ -510,12 +510,12 @@
       "Font Tags Background": true,
       "Font Tags Health": true,
       "Tags Size": 0.5,
-      "Tags Health": false,
+      "Tags Health": true,
       "Tags Background": true,
-      "Tags Health Bar": true,
+      "Tags Health Bar": false,
       "Item": true,
       "2D ESP": true,
-      "Box": true,
+      "Box": false,
       "Box Sync Color": true,
       "Box Color": {
         "RGB": -1,
@@ -634,7 +634,7 @@
     "Values": {}
   },
   "GlowESP": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": true,
     "Values": {
@@ -656,7 +656,7 @@
     "Key": 0,
     "Hidden": true,
     "Values": {
-      "Mode": "Blend",
+      "Mode": "Astolfo",
       "Points": 48.0,
       "Size": 0.5,
       "Off Set": 5000.0,
@@ -668,21 +668,17 @@
         "RGB": -11501364,
         "Alpha": 1.0
       },
-      "Third Color": {
-        "RGB": -11097857,
-        "Alpha": 1.0
-      },
       "Target": false
     }
   },
   "HitBubbles": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": true,
     "Values": {}
   },
   "Indicators": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": true,
     "Values": {
@@ -705,12 +701,12 @@
     "Hidden": true,
     "Values": {
       "Client Name": "MoonLight",
-      "Elements": "Island, Module List, Armor, Info, Potion HUD, Target HUD, Pointer, Session Info, Version Info",
+      "Elements": "Watermark, Module List, Armor, Info, Potion HUD, Target HUD, Notification, Pointer, Session Info, Version Info, Radar",
       "C Fonts": true,
       "C Fonts Mode": "Medium",
       "Font Size": 17.0,
       "anim Speed": 150.0,
-      "Watermark Mode": "Styles 2",
+      "Watermark Mode": "Novo 2",
       "Animation": "ScaleIn",
       "Text Height": 1.0,
       "Suffix": "Dash",
@@ -723,29 +719,29 @@
       "Version Mode": "Default",
       "Potion Mode": "Moon",
       "TargetHUD Mode": "Type 2",
-      "TargetHUD Particle": true,
+      "TargetHUD Particle": false,
       "Notification Mode": "Type 3",
       "Key Bind Mode": "Type 1",
-      "Session Info Mode": "Moon",
+      "Session Info Mode": "Novo 2",
       "Center Notification": false,
-      "Radar Size": 70.0,
-      "Color Setting": "Dynamic",
+      "Radar Size": 100.0,
+      "Color Setting": "Fade",
       "Main Color": {
-        "RGB": -6621697,
+        "RGB": -1,
         "Alpha": 1.0
       },
       "Second Color": {
-        "RGB": -11184811,
+        "RGB": -7929861,
         "Alpha": 1.0
       },
       "Fade Speed": 3.0,
       "Background": true,
-      "Background Color": "Synced",
+      "Background Color": "Dark",
       "Background Custom Color": {
         "RGB": -16777216,
         "Alpha": 1.0
       },
-      "Background Alpha": 154.0,
+      "Background Alpha": 152.0,
       "Custom Scoreboard": true,
       "Hide Scoreboard": false,
       "Hide Scoreboard Red Points": true,
@@ -755,12 +751,13 @@
       "New Button": false,
       "New Hot Bar": false,
       "Cape": true,
+      "Cape Mode": "Default",
       "Wavey Cape": false,
       "Enchanted": true
     }
   },
   "InvManager": {
-    "State": false,
+    "State": true,
     "Key": 38,
     "Hidden": false,
     "Values": {
@@ -787,7 +784,7 @@
     }
   },
   "ItemAlerts": {
-    "State": true,
+    "State": false,
     "Key": 0,
     "Hidden": true,
     "Values": {
@@ -839,7 +836,7 @@
     }
   },
   "KillAura": {
-    "State": false,
+    "State": true,
     "Key": 34,
     "Hidden": false,
     "Values": {
@@ -933,7 +930,7 @@
     "Key": 33,
     "Hidden": false,
     "Values": {
-      "Mode": "Watchdog Damage",
+      "Mode": "Watchdog Fireball",
       "Fireball Mode": "High",
       "Matrix Timer": 0.3,
       "Boost": true,
@@ -1092,22 +1089,23 @@
       "Elasticity": 0.3,
       "Damping Factor": 0.5,
       "Smoothly Reset Rotation": false,
-      "Addons": "Sprint, Swing, Speed Keep Y, Safe Walk",
+      "Addons": "Sprint, Swing, Speed Keep Y",
       "Blocks To Jump": 7.0,
       "Blocks To Sneak": 7.0,
       "Sneak Distance": 0.0,
-      "Tower": "Jump",
+      "Tower": "Watchdog",
+      "Tower Stop": true,
+      "Tower Stop Tick": 18.0,
       "Tower Move": "Watchdog",
-      "Stop": false,
-      "Stop Tick": 10.0,
+      "Tower Move Stop": false,
       "WD Sprint Mode": "Offset",
       "Sprint Boost Test": true,
-      "WD Keep Y Mode": "Vanilla",
+      "WD Keep Y Mode": "Extra",
       "WD Fast Fall Mode": "Disabled",
       "Un Flagged Test": true,
       "Un Patch Test": false,
-      "Keep Y Straight Speed": 0.81,
-      "Keep Y Diagonal Speed": 0.81,
+      "Keep Y Straight Speed": 1.0,
+      "Keep Y Diagonal Speed": 1.0,
       "Counter": "None"
     }
   },
@@ -1116,13 +1114,13 @@
     "Key": 0,
     "Hidden": true,
     "Values": {
-      "Blur": false,
+      "Blur": true,
       "Blur Radius": 10.0,
       "Blur Compression": 1.0,
-      "Shadow": false,
-      "Shadow Radius": 9.0,
+      "Shadow": true,
+      "Shadow Radius": 10.0,
       "Shadow Offset": 2.0,
-      "Bloom": true,
+      "Bloom": false,
       "Bloom Radius": 3.0,
       "Bloom Offset": 3.0
     }
@@ -1138,8 +1136,7 @@
       "Hurt Time Check": false,
       "Fast Fall Mode": "7 Tick",
       "Disable While Scaffold": true,
-      "Fall Strafe": false,
-      "Friction Override": false,
+      "Friction Override": true,
       "Extra Strafe": false,
       "More Expand": true,
       "Ignore Damage": true,
@@ -1149,7 +1146,7 @@
       "Air Boost": true,
       "Damage Boost": true,
       "Ticks": 5.0,
-      "No Bob": false,
+      "No Bob": true,
       "Force Stop": false,
       "Lag Back Check": true,
       "Liquid Check": false,
@@ -1171,7 +1168,7 @@
     }
   },
   "Stealer": {
-    "State": false,
+    "State": true,
     "Key": 38,
     "Hidden": false,
     "Values": {
@@ -1190,13 +1187,13 @@
     }
   },
   "Step": {
-    "State": false,
+    "State": true,
     "Key": 0,
     "Hidden": false,
     "Values": {
       "Mode": "NCP",
-      "Timer": 0.2,
-      "Delay": 1163.0
+      "Timer": 0.25,
+      "Delay": 300.0
     }
   },
   "Strafe": {
