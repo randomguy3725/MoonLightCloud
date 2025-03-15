@@ -930,7 +930,7 @@
     "Key": 33,
     "Hidden": false,
     "Values": {
-      "Mode": "Watchdog Fireball",
+      "Mode": "Watchdog Damage",
       "Fireball Mode": "High",
       "Matrix Timer": 0.3,
       "Boost": true,
